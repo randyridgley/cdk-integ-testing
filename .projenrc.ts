@@ -7,7 +7,11 @@ const project = new awscdk.AwsCdkTypeScriptApp({
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],             /* Build dependencies for this module. */
+  devDeps: [
+    "@aws-cdk/integ-runner",
+    "@aws-cdk/integ-tests-alpha",
+  ],             /* Build dependencies for this module. */
   // packageName: undefined,  /* The "name" in package.json. */
+  experimentalIntegRunner: true,
 });
 project.synth();

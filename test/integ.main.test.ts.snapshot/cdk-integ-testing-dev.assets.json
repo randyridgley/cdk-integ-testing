@@ -1,0 +1,20 @@
+{
+  "version": "36.0.0",
+  "files": {
+    "63cdea456090ff1647660ab39d288e27ba0e125b5c9415efa9e895bbb5b1a14c": {
+      "source": {
+        "path": "cdk-integ-testing-dev.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "649037252677-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-649037252677-us-east-1",
+          "objectKey": "63cdea456090ff1647660ab39d288e27ba0e125b5c9415efa9e895bbb5b1a14c.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::649037252677:role/cdk-hnb659fds-file-publishing-role-649037252677-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

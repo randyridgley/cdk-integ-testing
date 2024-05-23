@@ -1,6 +1,14 @@
 {
   "dependencies": [
     {
+      "name": "@aws-cdk/integ-runner",
+      "type": "build"
+    },
+    {
+      "name": "@aws-cdk/integ-tests-alpha",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -65,6 +73,16 @@
     {
       "name": "typescript",
       "type": "build"
+    },
+    {
+      "name": "@aws-cdk/integ-runner",
+      "version": "latest",
+      "type": "devenv"
+    },
+    {
+      "name": "@aws-cdk/integ-tests-alpha",
+      "version": "latest",
+      "type": "devenv"
     },
     {
       "name": "aws-cdk-lib",
